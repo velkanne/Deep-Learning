@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import SimpleImputer
 
 # Cargar el conjunto de datos desde la misma carpeta
-file_path = 'C:\Users\ttvga\AppData\Roaming\npm\stroke_project'
+file_path = 'stroke.csv'
 df = pd.read_csv(file_path)
 
 # --- Preprocesamiento de Datos ---
